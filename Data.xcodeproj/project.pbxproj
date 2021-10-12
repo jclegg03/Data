@@ -11,6 +11,8 @@
 		A7AC3C04271603E80046B20A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AC3C03271603E80046B20A /* ContentView.swift */; };
 		A7AC3C06271603E90046B20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C05271603E90046B20A /* Assets.xcassets */; };
 		A7AC3C09271603E90046B20A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C08271603E90046B20A /* Preview Assets.xcassets */; };
+		A7AC3C1D271610EF0046B20A /* new-voter-registrations.csv in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C1C271610EF0046B20A /* new-voter-registrations.csv */; };
+		A7AC3C20271611090046B20A /* presidential_polls_2020.csv in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C1F271611090046B20A /* presidential_polls_2020.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		A7AC3C05271603E90046B20A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7AC3C08271603E90046B20A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A7AC3C0A271603E90046B20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AC3C1C271610EF0046B20A /* new-voter-registrations.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "new-voter-registrations.csv"; path = "../../../../../../../Downloads/Used Downloads/voter-registration 2/new-voter-registrations.csv"; sourceTree = "<group>"; };
+		A7AC3C1F271611090046B20A /* presidential_polls_2020.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = presidential_polls_2020.csv; path = "../../../../../../../Downloads/Used Downloads/election-forecasts-2020 2/presidential_polls_2020.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +74,21 @@
 		A7AC3C11271603FC0046B20A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A7AC3C14271610440046B20A /* Data */,
 				A7AC3C01271603E80046B20A /* DataApp.swift */,
 				A7AC3C05271603E90046B20A /* Assets.xcassets */,
 				A7AC3C0A271603E90046B20A /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7AC3C14271610440046B20A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A7AC3C1F271611090046B20A /* presidential_polls_2020.csv */,
+				A7AC3C1C271610EF0046B20A /* new-voter-registrations.csv */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +148,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7AC3C1D271610EF0046B20A /* new-voter-registrations.csv in Resources */,
+				A7AC3C20271611090046B20A /* presidential_polls_2020.csv in Resources */,
 				A7AC3C09271603E90046B20A /* Preview Assets.xcassets in Resources */,
 				A7AC3C06271603E90046B20A /* Assets.xcassets in Resources */,
 			);
