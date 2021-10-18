@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  DataView.swift
 //  Data
 //
 //  Created by Clegg, Jay on 10/12/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View
+struct DataView: View
 {
     var body: some View
     {
@@ -20,6 +20,6 @@ struct ContentView_Previews: PreviewProvider
 {
     static var previews: some View
     {
-        ContentView()
+        DataView()
     }
 }

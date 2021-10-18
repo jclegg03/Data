@@ -14,7 +14,7 @@ struct DataApp: App
     {
         WindowGroup
         {
-            ContentView()
+            DataView()
         }
     }
 }
