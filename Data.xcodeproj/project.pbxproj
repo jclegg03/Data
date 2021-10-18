@@ -13,6 +13,7 @@
 		A7AC3C09271603E90046B20A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C08271603E90046B20A /* Preview Assets.xcassets */; };
 		A7AC3C1D271610EF0046B20A /* new-voter-registrations.csv in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C1C271610EF0046B20A /* new-voter-registrations.csv */; };
 		A7AC3C20271611090046B20A /* presidential_polls_2020.csv in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C1F271611090046B20A /* presidential_polls_2020.csv */; };
+		A7D874B3271DEF420084D797 /* bucket2021.json in Resources */ = {isa = PBXBuildFile; fileRef = A7D874B2271DEF420084D797 /* bucket2021.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A7AC3C0A271603E90046B20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7AC3C1C271610EF0046B20A /* new-voter-registrations.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "new-voter-registrations.csv"; path = "../../../../../../../Downloads/Used Downloads/voter-registration 2/new-voter-registrations.csv"; sourceTree = "<group>"; };
 		A7AC3C1F271611090046B20A /* presidential_polls_2020.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = presidential_polls_2020.csv; path = "../../../../../../../Downloads/Used Downloads/election-forecasts-2020 2/presidential_polls_2020.csv"; sourceTree = "<group>"; };
+		A7D874B2271DEF420084D797 /* bucket2021.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bucket2021.json; path = ../../../../../../../Downloads/bucket2021.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				A7AC3C1F271611090046B20A /* presidential_polls_2020.csv */,
 				A7AC3C1C271610EF0046B20A /* new-voter-registrations.csv */,
+				A7D874B2271DEF420084D797 /* bucket2021.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				A7AC3C1D271610EF0046B20A /* new-voter-registrations.csv in Resources */,
 				A7AC3C20271611090046B20A /* presidential_polls_2020.csv in Resources */,
 				A7AC3C09271603E90046B20A /* Preview Assets.xcassets in Resources */,
+				A7D874B3271DEF420084D797 /* bucket2021.json in Resources */,
 				A7AC3C06271603E90046B20A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
