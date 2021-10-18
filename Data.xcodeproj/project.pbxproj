@@ -15,6 +15,7 @@
 		A7AC3C20271611090046B20A /* presidential_polls_2020.csv in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C1F271611090046B20A /* presidential_polls_2020.csv */; };
 		A7D874B3271DEF420084D797 /* bucket2021.json in Resources */ = {isa = PBXBuildFile; fileRef = A7D874B2271DEF420084D797 /* bucket2021.json */; };
 		A7D874B8271DF55D0084D797 /* BucketListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D874B7271DF55D0084D797 /* BucketListItem.swift */; };
+		A7D874BD271DF72B0084D797 /* BucketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D874BC271DF72B0084D797 /* BucketDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A7AC3C1F271611090046B20A /* presidential_polls_2020.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = presidential_polls_2020.csv; path = "../../../../../../../Downloads/Used Downloads/election-forecasts-2020 2/presidential_polls_2020.csv"; sourceTree = "<group>"; };
 		A7D874B2271DEF420084D797 /* bucket2021.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bucket2021.json; path = ../../../../../../../Downloads/bucket2021.json; sourceTree = "<group>"; };
 		A7D874B7271DF55D0084D797 /* BucketListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListItem.swift; sourceTree = "<group>"; };
+		A7D874BC271DF72B0084D797 /* BucketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,7 @@
 			children = (
 				A7D874B6271DF5300084D797 /* Model */,
 				A7AC3C11271603FC0046B20A /* Resources */,
-				A7AC3C03271603E80046B20A /* DataView.swift */,
+				A7D874BA271DF6DF0084D797 /* ViewController */,
 				A7AC3C07271603E90046B20A /* Preview Content */,
 			);
 			path = Data;
@@ -103,6 +105,15 @@
 				A7D874B7271DF55D0084D797 /* BucketListItem.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A7D874BA271DF6DF0084D797 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A7AC3C03271603E80046B20A /* DataView.swift */,
+				A7D874BC271DF72B0084D797 /* BucketDetailView.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7AC3C04271603E80046B20A /* DataView.swift in Sources */,
+				A7D874BD271DF72B0084D797 /* BucketDetailView.swift in Sources */,
 				A7AC3C02271603E80046B20A /* DataApp.swift in Sources */,
 				A7D874B8271DF55D0084D797 /* BucketListItem.swift in Sources */,
 			);
