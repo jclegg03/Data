@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A77C56342720A7510032CF51 /* BucketRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77C56332720A7510032CF51 /* BucketRowView.swift */; };
 		A7AC3C02271603E80046B20A /* DataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AC3C01271603E80046B20A /* DataApp.swift */; };
 		A7AC3C04271603E80046B20A /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AC3C03271603E80046B20A /* DataView.swift */; };
 		A7AC3C06271603E90046B20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C05271603E90046B20A /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A77C56332720A7510032CF51 /* BucketRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketRowView.swift; sourceTree = "<group>"; };
 		A7AC3BFE271603E80046B20A /* Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Data.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AC3C01271603E80046B20A /* DataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataApp.swift; sourceTree = "<group>"; };
 		A7AC3C03271603E80046B20A /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			children = (
 				A7AC3C03271603E80046B20A /* DataView.swift */,
 				A7D874BC271DF72B0084D797 /* BucketDetailView.swift */,
+				A77C56332720A7510032CF51 /* BucketRowView.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7AC3C04271603E80046B20A /* DataView.swift in Sources */,
+				A77C56342720A7510032CF51 /* BucketRowView.swift in Sources */,
 				A7D874BD271DF72B0084D797 /* BucketDetailView.swift in Sources */,
 				A7AC3C02271603E80046B20A /* DataApp.swift in Sources */,
 				A7D874B8271DF55D0084D797 /* BucketListItem.swift in Sources */,
