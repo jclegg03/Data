@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A77C56342720A7510032CF51 /* BucketRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77C56332720A7510032CF51 /* BucketRowView.swift */; };
+		A797911B27288ADB003000C3 /* EmojiLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797911A27288ADB003000C3 /* EmojiLogo.swift */; };
+		A797911F27288EC9003000C3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797911E27288EC9003000C3 /* Utilities.swift */; };
 		A7AC3C02271603E80046B20A /* DataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AC3C01271603E80046B20A /* DataApp.swift */; };
 		A7AC3C04271603E80046B20A /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AC3C03271603E80046B20A /* DataView.swift */; };
 		A7AC3C06271603E90046B20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C05271603E90046B20A /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		A77C56332720A7510032CF51 /* BucketRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketRowView.swift; sourceTree = "<group>"; };
+		A797911A27288ADB003000C3 /* EmojiLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLogo.swift; sourceTree = "<group>"; };
+		A797911E27288EC9003000C3 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		A7AC3BFE271603E80046B20A /* Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Data.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AC3C01271603E80046B20A /* DataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataApp.swift; sourceTree = "<group>"; };
 		A7AC3C03271603E80046B20A /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				A7D874B7271DF55D0084D797 /* BucketListItem.swift */,
+				A797911E27288EC9003000C3 /* Utilities.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 				A7AC3C03271603E80046B20A /* DataView.swift */,
 				A7D874BC271DF72B0084D797 /* BucketDetailView.swift */,
 				A77C56332720A7510032CF51 /* BucketRowView.swift */,
+				A797911A27288ADB003000C3 /* EmojiLogo.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -193,9 +199,11 @@
 			files = (
 				A7AC3C04271603E80046B20A /* DataView.swift in Sources */,
 				A77C56342720A7510032CF51 /* BucketRowView.swift in Sources */,
+				A797911F27288EC9003000C3 /* Utilities.swift in Sources */,
 				A7D874BD271DF72B0084D797 /* BucketDetailView.swift in Sources */,
 				A7AC3C02271603E80046B20A /* DataApp.swift in Sources */,
 				A7D874B8271DF55D0084D797 /* BucketListItem.swift in Sources */,
+				A797911B27288ADB003000C3 /* EmojiLogo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
