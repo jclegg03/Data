@@ -9,15 +9,19 @@ import SwiftUI
 
 struct BucketDetailView: View
 {
+    var currentBucketlistItem : BucketListItem
+    let emoji : String
+    
     var body: some View
     {
         ZStack
         {
-            Color.purple.edgesIgnoringSafeArea(.all)
+            Color.green.edgesIgnoringSafeArea(.all)
+            Image("BetterBucket")
             VStack
             {
                 Text("text 1")
-                Text("text 2")
+                EmojiLogo(emoji: emoji)
                 Text("text 3")
                 Text("text 4")
             }
@@ -29,6 +33,6 @@ struct BucketDetailView_Previews: PreviewProvider
 {
     static var previews: some View
     {
-        BucketDetailView()
+        BucketDetailView(currentBucketlistItem: demoItem, emoji: "💩")
     }
 }

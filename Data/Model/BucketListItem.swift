@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct bucketListItem: Codable, Identifiable
+struct BucketListItem: Codable, Identifiable
 {
     var id = UUID().uuidString
     var year: Int

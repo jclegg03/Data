@@ -7,6 +7,8 @@
 
 import Foundation
 
+let demoItem : BucketListItem = BucketListItem(year: -9395891, goal: "My goal is to annoy someone here", creature: "Creature the house elf")
+
 func generateRandomEmoji(of emojiType: String) -> String
 {
     let start : Int
