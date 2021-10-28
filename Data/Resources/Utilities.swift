@@ -43,18 +43,18 @@ func generateRandomEmoji(of emojiType: String) -> String
 
 func loadJSON (from file : String) -> [BucketListItem]
 {
-    if let dataURL = Bundle.main.url(forResours: file, withExtension: "json")
+    if let dataURL = Bundle.main.url(forResource: file, withExtension: "json")
     {
         let data = try! Data(contentsOf: dataURL)
         let decoder = JSONDecoder()
         do
         {
-            let results try decoder.decode([BucketListItem].self, from: data)
+            let results = try decoder.decode([BucketListItem].self, from: data)
             return results
         }
         catch
         {
-            print(error.localizeDescription)
+            print(error.localizedDescription)
         }
     }
     return [BucketListItem]() // TOTAL DATA READ FAILURE!
