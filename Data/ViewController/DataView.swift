@@ -13,9 +13,9 @@ struct DataView: View
     {
         List
         {
-            BucketRowView()
-            BucketRowView()
-            BucketRowView()
+            BucketRowView(currentBucket: demoItem, icon: generateRandomEmoji(of: ""))
+            BucketRowView(currentBucket: demoItem, icon: generateRandomEmoji(of: "face"))
+            BucketRowView(currentBucket: demoItem, icon: generateRandomEmoji(of: "greek"))
         }
     }
 }

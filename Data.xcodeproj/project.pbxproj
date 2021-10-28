@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7047025272B23D9008AA38D /* BucketStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7047024272B23D9008AA38D /* BucketStore.swift */; };
 		A77C56342720A7510032CF51 /* BucketRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77C56332720A7510032CF51 /* BucketRowView.swift */; };
 		A797911B27288ADB003000C3 /* EmojiLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797911A27288ADB003000C3 /* EmojiLogo.swift */; };
 		A797911F27288EC9003000C3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797911E27288EC9003000C3 /* Utilities.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7047024272B23D9008AA38D /* BucketStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketStore.swift; sourceTree = "<group>"; };
 		A77C56332720A7510032CF51 /* BucketRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketRowView.swift; sourceTree = "<group>"; };
 		A797911A27288ADB003000C3 /* EmojiLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLogo.swift; sourceTree = "<group>"; };
 		A797911E27288EC9003000C3 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				A7D874B7271DF55D0084D797 /* BucketListItem.swift */,
+				A7047024272B23D9008AA38D /* BucketStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				A7AC3C02271603E80046B20A /* DataApp.swift in Sources */,
 				A7D874B8271DF55D0084D797 /* BucketListItem.swift in Sources */,
 				A797911B27288ADB003000C3 /* EmojiLogo.swift in Sources */,
+				A7047025272B23D9008AA38D /* BucketStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
