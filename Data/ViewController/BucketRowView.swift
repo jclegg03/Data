@@ -9,12 +9,16 @@ import SwiftUI
 
 struct BucketRowView: View
 {
+    var currentBucket : BucketListItem
+    var icon : String
+    
     var body: some View
     {
         HStack
         {
-            Text("Text1")
-            Text("Text2")
+            Text(icon)
+            Spacer()
+            Text(currentBucket.creature)
         }
     }
 }
@@ -23,6 +27,6 @@ struct BucketRowView_Previews: PreviewProvider
 {
     static var previews: some View
     {
-        BucketRowView()
+        BucketRowView(currentBucket: demoItem, icon: "😈")
     }
 }
