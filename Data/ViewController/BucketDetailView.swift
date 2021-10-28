@@ -20,10 +20,10 @@ struct BucketDetailView: View
             Image("goodBucket")
             VStack
             {
-                Text("text 1")
+                Text("Creature: \(currentBucketlistItem.creature)")
                 EmojiLogo(emoji: emoji)
-                Text("text 3")
-                Text("text 4")
+                Text("Goal: \(currentBucketlistItem.goal)")
+                Text("Year: \(currentBucketlistItem.year)")
             }
         }
     }
