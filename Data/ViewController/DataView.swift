@@ -9,13 +9,21 @@ import SwiftUI
 
 struct DataView: View
 {
+    @ObservedObject var bucketStore : BucketStore = BucketStore(buckets: loadJSON(from: "bucket2021"))
+    
     var body: some View
     {
-        List
+        NavigationView
         {
-            BucketRowView(currentBucket: demoItem, icon: generateRandomEmoji(of: ""))
-            BucketRowView(currentBucket: demoItem, icon: generateRandomEmoji(of: "face"))
-            BucketRowView(currentBucket: demoItem, icon: generateRandomEmoji(of: "greek"))
+            List
+            {
+                ForEach(bucketStore.buckets)
+                {
+                    bucket in
+                    
+                    BucketRowView(currentBucket: bucket, icon: generateRandomEmoji(of: ""))
+                }
+            }
         }
     }
 }

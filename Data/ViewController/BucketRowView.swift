@@ -14,11 +14,14 @@ struct BucketRowView: View
     
     var body: some View
     {
-        HStack
+        NavigationLink(destination: BucketDetailView(currentBucketlistItem: currentBucket, emoji: icon))
         {
-            Text(icon)
-            Spacer()
-            Text(currentBucket.creature)
+        HStack
+            {
+                Text(icon)
+                Spacer()
+                Text(currentBucket.creature)
+            }
         }
     }
 }
