@@ -23,6 +23,7 @@ struct BucketDetailView: View
                 Text("Creature: \(currentBucketlistItem.creature)")
                 EmojiLogo(emoji: emoji)
                 Text("Goal: \(currentBucketlistItem.goal)")
+                    .padding()
                 Text("Year: \(currentBucketlistItem.year)")
             }
         }
