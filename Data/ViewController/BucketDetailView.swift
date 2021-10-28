@@ -17,7 +17,7 @@ struct BucketDetailView: View
         ZStack
         {
             Color.green.edgesIgnoringSafeArea(.all)
-            Image("BetterBucket")
+            Image("goodBucket")
             VStack
             {
                 Text("text 1")

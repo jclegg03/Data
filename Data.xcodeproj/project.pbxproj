@@ -16,7 +16,7 @@
 		A7AC3C09271603E90046B20A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C08271603E90046B20A /* Preview Assets.xcassets */; };
 		A7AC3C1D271610EF0046B20A /* new-voter-registrations.csv in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C1C271610EF0046B20A /* new-voter-registrations.csv */; };
 		A7AC3C20271611090046B20A /* presidential_polls_2020.csv in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C1F271611090046B20A /* presidential_polls_2020.csv */; };
-		A7D874B3271DEF420084D797 /* bucket2021.json in Resources */ = {isa = PBXBuildFile; fileRef = A7D874B2271DEF420084D797 /* bucket2021.json */; };
+		A7B39A62272B188800868EBA /* bucket2021.json in Resources */ = {isa = PBXBuildFile; fileRef = A7B39A61272B188800868EBA /* bucket2021.json */; };
 		A7D874B8271DF55D0084D797 /* BucketListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D874B7271DF55D0084D797 /* BucketListItem.swift */; };
 		A7D874BD271DF72B0084D797 /* BucketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D874BC271DF72B0084D797 /* BucketDetailView.swift */; };
 /* End PBXBuildFile section */
@@ -33,7 +33,7 @@
 		A7AC3C0A271603E90046B20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7AC3C1C271610EF0046B20A /* new-voter-registrations.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "new-voter-registrations.csv"; path = "../../../../../../../Downloads/Used Downloads/voter-registration 2/new-voter-registrations.csv"; sourceTree = "<group>"; };
 		A7AC3C1F271611090046B20A /* presidential_polls_2020.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = presidential_polls_2020.csv; path = "../../../../../../../Downloads/Used Downloads/election-forecasts-2020 2/presidential_polls_2020.csv"; sourceTree = "<group>"; };
-		A7D874B2271DEF420084D797 /* bucket2021.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bucket2021.json; path = ../../../../../../../Downloads/bucket2021.json; sourceTree = "<group>"; };
+		A7B39A61272B188800868EBA /* bucket2021.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bucket2021.json; path = "../../../../../../../Downloads/Used Downloads/bucket2021.json"; sourceTree = "<group>"; };
 		A7D874B7271DF55D0084D797 /* BucketListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListItem.swift; sourceTree = "<group>"; };
 		A7D874BC271DF72B0084D797 /* BucketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +87,7 @@
 		A7AC3C11271603FC0046B20A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A797911E27288EC9003000C3 /* Utilities.swift */,
 				A7AC3C14271610440046B20A /* Data */,
 				A7AC3C01271603E80046B20A /* DataApp.swift */,
 				A7AC3C05271603E90046B20A /* Assets.xcassets */,
@@ -100,7 +101,7 @@
 			children = (
 				A7AC3C1F271611090046B20A /* presidential_polls_2020.csv */,
 				A7AC3C1C271610EF0046B20A /* new-voter-registrations.csv */,
-				A7D874B2271DEF420084D797 /* bucket2021.json */,
+				A7B39A61272B188800868EBA /* bucket2021.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -109,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				A7D874B7271DF55D0084D797 /* BucketListItem.swift */,
-				A797911E27288EC9003000C3 /* Utilities.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 				A7AC3C1D271610EF0046B20A /* new-voter-registrations.csv in Resources */,
 				A7AC3C20271611090046B20A /* presidential_polls_2020.csv in Resources */,
 				A7AC3C09271603E90046B20A /* Preview Assets.xcassets in Resources */,
-				A7D874B3271DEF420084D797 /* bucket2021.json in Resources */,
+				A7B39A62272B188800868EBA /* bucket2021.json in Resources */,
 				A7AC3C06271603E90046B20A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
