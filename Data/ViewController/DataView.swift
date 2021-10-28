@@ -21,7 +21,7 @@ struct DataView: View
                 {
                     bucket in
                     
-                    BucketRowView(currentBucket: bucket, icon: generateRandomEmoji(of: ""))
+                    BucketRowView(currentBucket: bucket, icon: generateRandomEmoji(of: "greek"))
                 }
             }
         }
