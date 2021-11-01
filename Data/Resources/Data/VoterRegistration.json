@@ -1,0 +1,638 @@
+[
+  {
+    "Jurisdiction": "Arizona",
+    "Year": 2016,
+    "Month": "Jan",
+    "NewRegisteredVoters": 25852
+  },
+  {
+    "Jurisdiction": "Arizona",
+    "Year": 2016,
+    "Month": "Feb",
+    "NewRegisteredVoters": 51155
+  },
+  {
+    "Jurisdiction": "Arizona",
+    "Year": 2016,
+    "Month": "Mar",
+    "NewRegisteredVoters": 48614
+  },
+  {
+    "Jurisdiction": "Arizona",
+    "Year": 2016,
+    "Month": "Apr",
+    "NewRegisteredVoters": 30668
+  },
+  {
+    "Jurisdiction": "Arizona",
+    "Year": 2020,
+    "Month": "Jan",
+    "NewRegisteredVoters": 33229
+  },
+  {
+    "Jurisdiction": "Arizona",
+    "Year": 2020,
+    "Month": "Feb",
+    "NewRegisteredVoters": 50853
+  },
+  {
+    "Jurisdiction": "Arizona",
+    "Year": 2020,
+    "Month": "Mar",
+    "NewRegisteredVoters": 31872
+  },
+  {
+    "Jurisdiction": "Arizona",
+    "Year": 2020,
+    "Month": "Apr",
+    "NewRegisteredVoters": 10249
+  },
+  {
+    "Jurisdiction": "California",
+    "Year": 2016,
+    "Month": "Jan",
+    "NewRegisteredVoters": 87574
+  },
+  {
+    "Jurisdiction": "California",
+    "Year": 2016,
+    "Month": "Feb",
+    "NewRegisteredVoters": 103377
+  },
+  {
+    "Jurisdiction": "California",
+    "Year": 2016,
+    "Month": "Mar",
+    "NewRegisteredVoters": 174278
+  },
+  {
+    "Jurisdiction": "California",
+    "Year": 2016,
+    "Month": "Apr",
+    "NewRegisteredVoters": 185478
+  },
+  {
+    "Jurisdiction": "California",
+    "Year": 2020,
+    "Month": "Jan",
+    "NewRegisteredVoters": 151595
+  },
+  {
+    "Jurisdiction": "California",
+    "Year": 2020,
+    "Month": "Feb",
+    "NewRegisteredVoters": 238281
+  },
+  {
+    "Jurisdiction": "California",
+    "Year": 2020,
+    "Month": "Mar",
+    "NewRegisteredVoters": 176810
+  },
+  {
+    "Jurisdiction": "California",
+    "Year": 2020,
+    "Month": "Apr",
+    "NewRegisteredVoters": 38970
+  },
+  {
+    "Jurisdiction": "Colorado",
+    "Year": 2016,
+    "Month": "Jan",
+    "NewRegisteredVoters": 17024
+  },
+  {
+    "Jurisdiction": "Colorado",
+    "Year": 2016,
+    "Month": "Feb",
+    "NewRegisteredVoters": 20707
+  },
+  {
+    "Jurisdiction": "Colorado",
+    "Year": 2016,
+    "Month": "Mar",
+    "NewRegisteredVoters": 25627
+  },
+  {
+    "Jurisdiction": "Colorado",
+    "Year": 2016,
+    "Month": "Apr",
+    "NewRegisteredVoters": 22204
+  },
+  {
+    "Jurisdiction": "Colorado",
+    "Year": 2020,
+    "Month": "Jan",
+    "NewRegisteredVoters": 20260
+  },
+  {
+    "Jurisdiction": "Colorado",
+    "Year": 2020,
+    "Month": "Feb",
+    "NewRegisteredVoters": 33374
+  },
+  {
+    "Jurisdiction": "Colorado",
+    "Year": 2020,
+    "Month": "Mar",
+    "NewRegisteredVoters": 18990
+  },
+  {
+    "Jurisdiction": "Colorado",
+    "Year": 2020,
+    "Month": "Apr",
+    "NewRegisteredVoters": 6034
+  },
+  {
+    "Jurisdiction": "Delaware",
+    "Year": 2016,
+    "Month": "Jan",
+    "NewRegisteredVoters": 3007
+  },
+  {
+    "Jurisdiction": "Delaware",
+    "Year": 2016,
+    "Month": "Feb",
+    "NewRegisteredVoters": 3629
+  },
+  {
+    "Jurisdiction": "Delaware",
+    "Year": 2016,
+    "Month": "Mar",
+    "NewRegisteredVoters": 5124
+  },
+  {
+    "Jurisdiction": "Delaware",
+    "Year": 2016,
+    "Month": "Apr",
+    "NewRegisteredVoters": 3818
+  },
+  {
+    "Jurisdiction": "Delaware",
+    "Year": 2020,
+    "Month": "Jan",
+    "NewRegisteredVoters": 3276
+  },
+  {
+    "Jurisdiction": "Delaware",
+    "Year": 2020,
+    "Month": "Feb",
+    "NewRegisteredVoters": 3353
+  },
+  {
+    "Jurisdiction": "Delaware",
+    "Year": 2020,
+    "Month": "Mar",
+    "NewRegisteredVoters": 2535
+  },
+  {
+    "Jurisdiction": "Delaware",
+    "Year": 2020,
+    "Month": "Apr",
+    "NewRegisteredVoters": 589
+  },
+  {
+    "Jurisdiction": "District of Columbia",
+    "Year": 2016,
+    "Month": "Jan",
+    "NewRegisteredVoters": 2840
+  },
+  {
+    "Jurisdiction": "District of Columbia",
+    "Year": 2016,
+    "Month": "Feb",
+    "NewRegisteredVoters": 2954
+  },
+  {
+    "Jurisdiction": "District of Columbia",
+    "Year": 2016,
+    "Month": "Mar",
+    "NewRegisteredVoters": 4706
+  },
+  {
+    "Jurisdiction": "District of Columbia",
+    "Year": 2016,
+    "Month": "Apr",
+    "NewRegisteredVoters": 4157
+  },
+  {
+    "Jurisdiction": "District of Columbia",
+    "Year": 2016,
+    "Month": "May",
+    "NewRegisteredVoters": 5714
+  },
+  {
+    "Jurisdiction": "District of Columbia",
+    "Year": 2020,
+    "Month": "Jan",
+    "NewRegisteredVoters": 3334
+  },
+  {
+    "Jurisdiction": "District of Columbia",
+    "Year": 2020,
+    "Month": "Feb",
+    "NewRegisteredVoters": 3348
+  },
+  {
+    "Jurisdiction": "District of Columbia",
+    "Year": 2020,
+    "Month": "Mar",
+    "NewRegisteredVoters": 2225
+  },
+  {
+    "Jurisdiction": "District of Columbia",
+    "Year": 2020,
+    "Month": "Apr",
+    "NewRegisteredVoters": 1281
+  },
+  {
+    "Jurisdiction": "District of Columbia",
+    "Year": 2020,
+    "Month": "May",
+    "NewRegisteredVoters": 1925
+  },
+  {
+    "Jurisdiction": "Florida",
+    "Year": 2016,
+    "Month": "Jan",
+    "NewRegisteredVoters": 50231
+  },
+  {
+    "Jurisdiction": "Florida",
+    "Year": 2016,
+    "Month": "Feb",
+    "NewRegisteredVoters": 87351
+  },
+  {
+    "Jurisdiction": "Florida",
+    "Year": 2016,
+    "Month": "Mar",
+    "NewRegisteredVoters": 73627
+  },
+  {
+    "Jurisdiction": "Florida",
+    "Year": 2016,
+    "Month": "Apr",
+    "NewRegisteredVoters": 52508
+  },
+  {
+    "Jurisdiction": "Florida",
+    "Year": 2020,
+    "Month": "Jan",
+    "NewRegisteredVoters": 77466
+  },
+  {
+    "Jurisdiction": "Florida",
+    "Year": 2020,
+    "Month": "Feb",
+    "NewRegisteredVoters": 109859
+  },
+  {
+    "Jurisdiction": "Florida",
+    "Year": 2020,
+    "Month": "Mar",
+    "NewRegisteredVoters": 54872
+  },
+  {
+    "Jurisdiction": "Florida",
+    "Year": 2020,
+    "Month": "Apr",
+    "NewRegisteredVoters": 21031
+  },
+  {
+    "Jurisdiction": "Georgia",
+    "Year": 2016,
+    "Month": "Jan",
+    "NewRegisteredVoters": 34952
+  },
+  {
+    "Jurisdiction": "Georgia",
+    "Year": 2016,
+    "Month": "Feb",
+    "NewRegisteredVoters": 40976
+  },
+  {
+    "Jurisdiction": "Georgia",
+    "Year": 2016,
+    "Month": "Mar",
+    "NewRegisteredVoters": 44150
+  },
+  {
+    "Jurisdiction": "Georgia",
+    "Year": 2016,
+    "Month": "Apr",
+    "NewRegisteredVoters": 37028
+  },
+  {
+    "Jurisdiction": "Georgia",
+    "Year": 2020,
+    "Month": "Jan",
+    "NewRegisteredVoters": 38573
+  },
+  {
+    "Jurisdiction": "Georgia",
+    "Year": 2020,
+    "Month": "Feb",
+    "NewRegisteredVoters": 55386
+  },
+  {
+    "Jurisdiction": "Georgia",
+    "Year": 2020,
+    "Month": "Mar",
+    "NewRegisteredVoters": 26284
+  },
+  {
+    "Jurisdiction": "Georgia",
+    "Year": 2020,
+    "Month": "Apr",
+    "NewRegisteredVoters": 15484
+  },
+  {
+    "Jurisdiction": "Illinois",
+    "Year": 2016,
+    "Month": "Jan",
+    "NewRegisteredVoters": 44040
+  },
+  {
+    "Jurisdiction": "Illinois",
+    "Year": 2016,
+    "Month": "Feb",
+    "NewRegisteredVoters": 99674
+  },
+  {
+    "Jurisdiction": "Illinois",
+    "Year": 2016,
+    "Month": "Mar",
+    "NewRegisteredVoters": 52782
+  },
+  {
+    "Jurisdiction": "Illinois",
+    "Year": 2016,
+    "Month": "Apr",
+    "NewRegisteredVoters": 76098
+  },
+  {
+    "Jurisdiction": "Illinois",
+    "Year": 2020,
+    "Month": "Jan",
+    "NewRegisteredVoters": 44443
+  },
+  {
+    "Jurisdiction": "Illinois",
+    "Year": 2020,
+    "Month": "Feb",
+    "NewRegisteredVoters": 68455
+  },
+  {
+    "Jurisdiction": "Illinois",
+    "Year": 2020,
+    "Month": "Mar",
+    "NewRegisteredVoters": 47899
+  },
+  {
+    "Jurisdiction": "Illinois",
+    "Year": 2020,
+    "Month": "Apr",
+    "NewRegisteredVoters": 21332
+  },
+  {
+    "Jurisdiction": "Maryland",
+    "Year": 2016,
+    "Month": "Jan",
+    "NewRegisteredVoters": 19580
+  },
+  {
+    "Jurisdiction": "Maryland",
+    "Year": 2016,
+    "Month": "Feb",
+    "NewRegisteredVoters": 29122
+  },
+  {
+    "Jurisdiction": "Maryland",
+    "Year": 2016,
+    "Month": "Mar",
+    "NewRegisteredVoters": 40497
+  },
+  {
+    "Jurisdiction": "Maryland",
+    "Year": 2016,
+    "Month": "Apr",
+    "NewRegisteredVoters": 26655
+  },
+  {
+    "Jurisdiction": "Maryland",
+    "Year": 2016,
+    "Month": "May",
+    "NewRegisteredVoters": 5828
+  },
+  {
+    "Jurisdiction": "Maryland",
+    "Year": 2020,
+    "Month": "Jan",
+    "NewRegisteredVoters": 21532
+  },
+  {
+    "Jurisdiction": "Maryland",
+    "Year": 2020,
+    "Month": "Feb",
+    "NewRegisteredVoters": 20708
+  },
+  {
+    "Jurisdiction": "Maryland",
+    "Year": 2020,
+    "Month": "Mar",
+    "NewRegisteredVoters": 23864
+  },
+  {
+    "Jurisdiction": "Maryland",
+    "Year": 2020,
+    "Month": "Apr",
+    "NewRegisteredVoters": 10061
+  },
+  {
+    "Jurisdiction": "Maryland",
+    "Year": 2020,
+    "Month": "May",
+    "NewRegisteredVoters": 23488
+  },
+  {
+    "Jurisdiction": "North Carolina",
+    "Year": 2016,
+    "Month": "Jan",
+    "NewRegisteredVoters": 35213
+  },
+  {
+    "Jurisdiction": "North Carolina",
+    "Year": 2016,
+    "Month": "Feb",
+    "NewRegisteredVoters": 84357
+  },
+  {
+    "Jurisdiction": "North Carolina",
+    "Year": 2016,
+    "Month": "Mar",
+    "NewRegisteredVoters": 58272
+  },
+  {
+    "Jurisdiction": "North Carolina",
+    "Year": 2016,
+    "Month": "Apr",
+    "NewRegisteredVoters": 73341
+  },
+  {
+    "Jurisdiction": "North Carolina",
+    "Year": 2016,
+    "Month": "May",
+    "NewRegisteredVoters": 29374
+  },
+  {
+    "Jurisdiction": "North Carolina",
+    "Year": 2020,
+    "Month": "Jan",
+    "NewRegisteredVoters": 111990
+  },
+  {
+    "Jurisdiction": "North Carolina",
+    "Year": 2020,
+    "Month": "Feb",
+    "NewRegisteredVoters": 54053
+  },
+  {
+    "Jurisdiction": "North Carolina",
+    "Year": 2020,
+    "Month": "Mar",
+    "NewRegisteredVoters": 54807
+  },
+  {
+    "Jurisdiction": "North Carolina",
+    "Year": 2020,
+    "Month": "Apr",
+    "NewRegisteredVoters": 35484
+  },
+  {
+    "Jurisdiction": "North Carolina",
+    "Year": 2020,
+    "Month": "May",
+    "NewRegisteredVoters": 23517
+  },
+  {
+    "Jurisdiction": "Texas",
+    "Year": 2016,
+    "Month": "Jan",
+    "NewRegisteredVoters": 132860
+  },
+  {
+    "Jurisdiction": "Texas",
+    "Year": 2016,
+    "Month": "Feb",
+    "NewRegisteredVoters": 143795
+  },
+  {
+    "Jurisdiction": "Texas",
+    "Year": 2016,
+    "Month": "Mar",
+    "NewRegisteredVoters": 170607
+  },
+  {
+    "Jurisdiction": "Texas",
+    "Year": 2016,
+    "Month": "Apr",
+    "NewRegisteredVoters": 143199
+  },
+  {
+    "Jurisdiction": "Texas",
+    "Year": 2016,
+    "Month": "May",
+    "NewRegisteredVoters": 91205
+  },
+  {
+    "Jurisdiction": "Texas",
+    "Year": 2020,
+    "Month": "Jan",
+    "NewRegisteredVoters": 134559
+  },
+  {
+    "Jurisdiction": "Texas",
+    "Year": 2020,
+    "Month": "Feb",
+    "NewRegisteredVoters": 130080
+  },
+  {
+    "Jurisdiction": "Texas",
+    "Year": 2020,
+    "Month": "Mar",
+    "NewRegisteredVoters": 129424
+  },
+  {
+    "Jurisdiction": "Texas",
+    "Year": 2020,
+    "Month": "Apr",
+    "NewRegisteredVoters": 34694
+  },
+  {
+    "Jurisdiction": "Texas",
+    "Year": 2020,
+    "Month": "May",
+    "NewRegisteredVoters": 35678
+  },
+  {
+    "Jurisdiction": "Virginia",
+    "Year": 2016,
+    "Month": "Jan",
+    "NewRegisteredVoters": 20032
+  },
+  {
+    "Jurisdiction": "Virginia",
+    "Year": 2016,
+    "Month": "Feb",
+    "NewRegisteredVoters": 36911
+  },
+  {
+    "Jurisdiction": "Virginia",
+    "Year": 2016,
+    "Month": "Mar",
+    "NewRegisteredVoters": 44171
+  },
+  {
+    "Jurisdiction": "Virginia",
+    "Year": 2016,
+    "Month": "Apr",
+    "NewRegisteredVoters": 20460
+  },
+  {
+    "Jurisdiction": "Virginia",
+    "Year": 2016,
+    "Month": "May",
+    "NewRegisteredVoters": 26239
+  },
+  {
+    "Jurisdiction": "Virginia",
+    "Year": 2020,
+    "Month": "Jan",
+    "NewRegisteredVoters": 25934
+  },
+  {
+    "Jurisdiction": "Virginia",
+    "Year": 2020,
+    "Month": "Feb",
+    "NewRegisteredVoters": 29507
+  },
+  {
+    "Jurisdiction": "Virginia",
+    "Year": 2020,
+    "Month": "Mar",
+    "NewRegisteredVoters": 31492
+  },
+  {
+    "Jurisdiction": "Virginia",
+    "Year": 2020,
+    "Month": "Apr",
+    "NewRegisteredVoters": 5467
+  },
+  {
+    "Jurisdiction": "Virginia",
+    "Year": 2020,
+    "Month": "May",
+    "NewRegisteredVoters": 8239
+  }
+]

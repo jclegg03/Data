@@ -59,3 +59,22 @@ func loadJSON (from file : String) -> [BucketListItem]
     }
     return [BucketListItem]() // TOTAL DATA READ FAILURE!
 }
+
+func loadJSON (from file : String) -> [ElectionDatum]
+{
+    if let dataURL = Bundle.main.url(forResource: file, withExtension: "json")
+    {
+        let data = try! Data(contentsOf: dataURL)
+        let decoder = JSONDecoder()
+        do
+        {
+            let results = try decoder.decode([ElectionDatum].self, from: data)
+            return results
+        }
+        catch
+        {
+            print(error.localizedDescription)
+        }
+    }
+    return [ElectionDatum]() // TOTAL DATA READ FAILURE!
+}

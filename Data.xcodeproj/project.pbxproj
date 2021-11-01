@@ -19,6 +19,11 @@
 		A7AC3C1D271610EF0046B20A /* new-voter-registrations.csv in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C1C271610EF0046B20A /* new-voter-registrations.csv */; };
 		A7AC3C20271611090046B20A /* presidential_polls_2020.csv in Resources */ = {isa = PBXBuildFile; fileRef = A7AC3C1F271611090046B20A /* presidential_polls_2020.csv */; };
 		A7B39A62272B188800868EBA /* bucket2021.json in Resources */ = {isa = PBXBuildFile; fileRef = A7B39A61272B188800868EBA /* bucket2021.json */; };
+		A7D667B627305D7F006DE1C5 /* PresidentialPolls.json in Resources */ = {isa = PBXBuildFile; fileRef = A7D667B527305D7F006DE1C5 /* PresidentialPolls.json */; };
+		A7D667B927305E08006DE1C5 /* VoterRegistration.json in Resources */ = {isa = PBXBuildFile; fileRef = A7D667B827305E08006DE1C5 /* VoterRegistration.json */; };
+		A7D667BC27305EB4006DE1C5 /* ElectionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D667BB27305EB4006DE1C5 /* ElectionStore.swift */; };
+		A7D667BF27305FB2006DE1C5 /* VoterRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D667BE27305FB2006DE1C5 /* VoterRegistration.swift */; };
+		A7D667C2273060AA006DE1C5 /* RegistrationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D667C1273060AA006DE1C5 /* RegistrationStore.swift */; };
 		A7D874B8271DF55D0084D797 /* BucketListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D874B7271DF55D0084D797 /* BucketListItem.swift */; };
 		A7D874BD271DF72B0084D797 /* BucketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D874BC271DF72B0084D797 /* BucketDetailView.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +43,11 @@
 		A7AC3C1C271610EF0046B20A /* new-voter-registrations.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "new-voter-registrations.csv"; path = "../../../../../../../Downloads/Used Downloads/voter-registration 2/new-voter-registrations.csv"; sourceTree = "<group>"; };
 		A7AC3C1F271611090046B20A /* presidential_polls_2020.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = presidential_polls_2020.csv; path = "../../../../../../../Downloads/Used Downloads/election-forecasts-2020 2/presidential_polls_2020.csv"; sourceTree = "<group>"; };
 		A7B39A61272B188800868EBA /* bucket2021.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bucket2021.json; path = "../../../../../../../Downloads/Used Downloads/bucket2021.json"; sourceTree = "<group>"; };
+		A7D667B527305D7F006DE1C5 /* PresidentialPolls.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PresidentialPolls.json; sourceTree = "<group>"; };
+		A7D667B827305E08006DE1C5 /* VoterRegistration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VoterRegistration.json; sourceTree = "<group>"; };
+		A7D667BB27305EB4006DE1C5 /* ElectionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectionStore.swift; sourceTree = "<group>"; };
+		A7D667BE27305FB2006DE1C5 /* VoterRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterRegistration.swift; sourceTree = "<group>"; };
+		A7D667C1273060AA006DE1C5 /* RegistrationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationStore.swift; sourceTree = "<group>"; };
 		A7D874B7271DF55D0084D797 /* BucketListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListItem.swift; sourceTree = "<group>"; };
 		A7D874BC271DF72B0084D797 /* BucketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +113,9 @@
 		A7AC3C14271610440046B20A /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				A7D667B527305D7F006DE1C5 /* PresidentialPolls.json */,
 				A7AC3C1F271611090046B20A /* presidential_polls_2020.csv */,
+				A7D667B827305E08006DE1C5 /* VoterRegistration.json */,
 				A7AC3C1C271610EF0046B20A /* new-voter-registrations.csv */,
 				A7B39A61272B188800868EBA /* bucket2021.json */,
 			);
@@ -116,6 +128,9 @@
 				A7D874B7271DF55D0084D797 /* BucketListItem.swift */,
 				A7047024272B23D9008AA38D /* BucketStore.swift */,
 				A7047027272B3270008AA38D /* ElectionDatam.swift */,
+				A7D667BB27305EB4006DE1C5 /* ElectionStore.swift */,
+				A7D667BE27305FB2006DE1C5 /* VoterRegistration.swift */,
+				A7D667C1273060AA006DE1C5 /* RegistrationStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -190,9 +205,11 @@
 			files = (
 				A7AC3C1D271610EF0046B20A /* new-voter-registrations.csv in Resources */,
 				A7AC3C20271611090046B20A /* presidential_polls_2020.csv in Resources */,
+				A7D667B627305D7F006DE1C5 /* PresidentialPolls.json in Resources */,
 				A7AC3C09271603E90046B20A /* Preview Assets.xcassets in Resources */,
 				A7B39A62272B188800868EBA /* bucket2021.json in Resources */,
 				A7AC3C06271603E90046B20A /* Assets.xcassets in Resources */,
+				A7D667B927305E08006DE1C5 /* VoterRegistration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +222,11 @@
 			files = (
 				A7AC3C04271603E80046B20A /* DataView.swift in Sources */,
 				A7047028272B3270008AA38D /* ElectionDatam.swift in Sources */,
+				A7D667C2273060AA006DE1C5 /* RegistrationStore.swift in Sources */,
+				A7D667BF27305FB2006DE1C5 /* VoterRegistration.swift in Sources */,
 				A77C56342720A7510032CF51 /* BucketRowView.swift in Sources */,
 				A797911F27288EC9003000C3 /* Utilities.swift in Sources */,
+				A7D667BC27305EB4006DE1C5 /* ElectionStore.swift in Sources */,
 				A7D874BD271DF72B0084D797 /* BucketDetailView.swift in Sources */,
 				A7AC3C02271603E80046B20A /* DataApp.swift in Sources */,
 				A7D874B8271DF55D0084D797 /* BucketListItem.swift in Sources */,
