@@ -1,0 +1,638 @@
+[
+  {
+    "state": "Arizona",
+    "year": 2016,
+    "month": "Jan",
+    "newVoters": 25852
+  },
+  {
+    "state": "Arizona",
+    "year": 2016,
+    "month": "Feb",
+    "newVoters": 51155
+  },
+  {
+    "state": "Arizona",
+    "year": 2016,
+    "month": "Mar",
+    "newVoters": 48614
+  },
+  {
+    "state": "Arizona",
+    "year": 2016,
+    "month": "Apr",
+    "newVoters": 30668
+  },
+  {
+    "state": "Arizona",
+    "year": 2020,
+    "month": "Jan",
+    "newVoters": 33229
+  },
+  {
+    "state": "Arizona",
+    "year": 2020,
+    "month": "Feb",
+    "newVoters": 50853
+  },
+  {
+    "state": "Arizona",
+    "year": 2020,
+    "month": "Mar",
+    "newVoters": 31872
+  },
+  {
+    "state": "Arizona",
+    "year": 2020,
+    "month": "Apr",
+    "newVoters": 10249
+  },
+  {
+    "state": "California",
+    "year": 2016,
+    "month": "Jan",
+    "newVoters": 87574
+  },
+  {
+    "state": "California",
+    "year": 2016,
+    "month": "Feb",
+    "newVoters": 103377
+  },
+  {
+    "state": "California",
+    "year": 2016,
+    "month": "Mar",
+    "newVoters": 174278
+  },
+  {
+    "state": "California",
+    "year": 2016,
+    "month": "Apr",
+    "newVoters": 185478
+  },
+  {
+    "state": "California",
+    "year": 2020,
+    "month": "Jan",
+    "newVoters": 151595
+  },
+  {
+    "state": "California",
+    "year": 2020,
+    "month": "Feb",
+    "newVoters": 238281
+  },
+  {
+    "state": "California",
+    "year": 2020,
+    "month": "Mar",
+    "newVoters": 176810
+  },
+  {
+    "state": "California",
+    "year": 2020,
+    "month": "Apr",
+    "newVoters": 38970
+  },
+  {
+    "state": "Colorado",
+    "year": 2016,
+    "month": "Jan",
+    "newVoters": 17024
+  },
+  {
+    "state": "Colorado",
+    "year": 2016,
+    "month": "Feb",
+    "newVoters": 20707
+  },
+  {
+    "state": "Colorado",
+    "year": 2016,
+    "month": "Mar",
+    "newVoters": 25627
+  },
+  {
+    "state": "Colorado",
+    "year": 2016,
+    "month": "Apr",
+    "newVoters": 22204
+  },
+  {
+    "state": "Colorado",
+    "year": 2020,
+    "month": "Jan",
+    "newVoters": 20260
+  },
+  {
+    "state": "Colorado",
+    "year": 2020,
+    "month": "Feb",
+    "newVoters": 33374
+  },
+  {
+    "state": "Colorado",
+    "year": 2020,
+    "month": "Mar",
+    "newVoters": 18990
+  },
+  {
+    "state": "Colorado",
+    "year": 2020,
+    "month": "Apr",
+    "newVoters": 6034
+  },
+  {
+    "state": "Delaware",
+    "year": 2016,
+    "month": "Jan",
+    "newVoters": 3007
+  },
+  {
+    "state": "Delaware",
+    "year": 2016,
+    "month": "Feb",
+    "newVoters": 3629
+  },
+  {
+    "state": "Delaware",
+    "year": 2016,
+    "month": "Mar",
+    "newVoters": 5124
+  },
+  {
+    "state": "Delaware",
+    "year": 2016,
+    "month": "Apr",
+    "newVoters": 3818
+  },
+  {
+    "state": "Delaware",
+    "year": 2020,
+    "month": "Jan",
+    "newVoters": 3276
+  },
+  {
+    "state": "Delaware",
+    "year": 2020,
+    "month": "Feb",
+    "newVoters": 3353
+  },
+  {
+    "state": "Delaware",
+    "year": 2020,
+    "month": "Mar",
+    "newVoters": 2535
+  },
+  {
+    "state": "Delaware",
+    "year": 2020,
+    "month": "Apr",
+    "newVoters": 589
+  },
+  {
+    "state": "District of Columbia",
+    "year": 2016,
+    "month": "Jan",
+    "newVoters": 2840
+  },
+  {
+    "state": "District of Columbia",
+    "year": 2016,
+    "month": "Feb",
+    "newVoters": 2954
+  },
+  {
+    "state": "District of Columbia",
+    "year": 2016,
+    "month": "Mar",
+    "newVoters": 4706
+  },
+  {
+    "state": "District of Columbia",
+    "year": 2016,
+    "month": "Apr",
+    "newVoters": 4157
+  },
+  {
+    "state": "District of Columbia",
+    "year": 2016,
+    "month": "May",
+    "newVoters": 5714
+  },
+  {
+    "state": "District of Columbia",
+    "year": 2020,
+    "month": "Jan",
+    "newVoters": 3334
+  },
+  {
+    "state": "District of Columbia",
+    "year": 2020,
+    "month": "Feb",
+    "newVoters": 3348
+  },
+  {
+    "state": "District of Columbia",
+    "year": 2020,
+    "month": "Mar",
+    "newVoters": 2225
+  },
+  {
+    "state": "District of Columbia",
+    "year": 2020,
+    "month": "Apr",
+    "newVoters": 1281
+  },
+  {
+    "state": "District of Columbia",
+    "year": 2020,
+    "month": "May",
+    "newVoters": 1925
+  },
+  {
+    "state": "Florida",
+    "year": 2016,
+    "month": "Jan",
+    "newVoters": 50231
+  },
+  {
+    "state": "Florida",
+    "year": 2016,
+    "month": "Feb",
+    "newVoters": 87351
+  },
+  {
+    "state": "Florida",
+    "year": 2016,
+    "month": "Mar",
+    "newVoters": 73627
+  },
+  {
+    "state": "Florida",
+    "year": 2016,
+    "month": "Apr",
+    "newVoters": 52508
+  },
+  {
+    "state": "Florida",
+    "year": 2020,
+    "month": "Jan",
+    "newVoters": 77466
+  },
+  {
+    "state": "Florida",
+    "year": 2020,
+    "month": "Feb",
+    "newVoters": 109859
+  },
+  {
+    "state": "Florida",
+    "year": 2020,
+    "month": "Mar",
+    "newVoters": 54872
+  },
+  {
+    "state": "Florida",
+    "year": 2020,
+    "month": "Apr",
+    "newVoters": 21031
+  },
+  {
+    "state": "Georgia",
+    "year": 2016,
+    "month": "Jan",
+    "newVoters": 34952
+  },
+  {
+    "state": "Georgia",
+    "year": 2016,
+    "month": "Feb",
+    "newVoters": 40976
+  },
+  {
+    "state": "Georgia",
+    "year": 2016,
+    "month": "Mar",
+    "newVoters": 44150
+  },
+  {
+    "state": "Georgia",
+    "year": 2016,
+    "month": "Apr",
+    "newVoters": 37028
+  },
+  {
+    "state": "Georgia",
+    "year": 2020,
+    "month": "Jan",
+    "newVoters": 38573
+  },
+  {
+    "state": "Georgia",
+    "year": 2020,
+    "month": "Feb",
+    "newVoters": 55386
+  },
+  {
+    "state": "Georgia",
+    "year": 2020,
+    "month": "Mar",
+    "newVoters": 26284
+  },
+  {
+    "state": "Georgia",
+    "year": 2020,
+    "month": "Apr",
+    "newVoters": 15484
+  },
+  {
+    "state": "Illinois",
+    "year": 2016,
+    "month": "Jan",
+    "newVoters": 44040
+  },
+  {
+    "state": "Illinois",
+    "year": 2016,
+    "month": "Feb",
+    "newVoters": 99674
+  },
+  {
+    "state": "Illinois",
+    "year": 2016,
+    "month": "Mar",
+    "newVoters": 52782
+  },
+  {
+    "state": "Illinois",
+    "year": 2016,
+    "month": "Apr",
+    "newVoters": 76098
+  },
+  {
+    "state": "Illinois",
+    "year": 2020,
+    "month": "Jan",
+    "newVoters": 44443
+  },
+  {
+    "state": "Illinois",
+    "year": 2020,
+    "month": "Feb",
+    "newVoters": 68455
+  },
+  {
+    "state": "Illinois",
+    "year": 2020,
+    "month": "Mar",
+    "newVoters": 47899
+  },
+  {
+    "state": "Illinois",
+    "year": 2020,
+    "month": "Apr",
+    "newVoters": 21332
+  },
+  {
+    "state": "Maryland",
+    "year": 2016,
+    "month": "Jan",
+    "newVoters": 19580
+  },
+  {
+    "state": "Maryland",
+    "year": 2016,
+    "month": "Feb",
+    "newVoters": 29122
+  },
+  {
+    "state": "Maryland",
+    "year": 2016,
+    "month": "Mar",
+    "newVoters": 40497
+  },
+  {
+    "state": "Maryland",
+    "year": 2016,
+    "month": "Apr",
+    "newVoters": 26655
+  },
+  {
+    "state": "Maryland",
+    "year": 2016,
+    "month": "May",
+    "newVoters": 5828
+  },
+  {
+    "state": "Maryland",
+    "year": 2020,
+    "month": "Jan",
+    "newVoters": 21532
+  },
+  {
+    "state": "Maryland",
+    "year": 2020,
+    "month": "Feb",
+    "newVoters": 20708
+  },
+  {
+    "state": "Maryland",
+    "year": 2020,
+    "month": "Mar",
+    "newVoters": 23864
+  },
+  {
+    "state": "Maryland",
+    "year": 2020,
+    "month": "Apr",
+    "newVoters": 10061
+  },
+  {
+    "state": "Maryland",
+    "year": 2020,
+    "month": "May",
+    "newVoters": 23488
+  },
+  {
+    "state": "North Carolina",
+    "year": 2016,
+    "month": "Jan",
+    "newVoters": 35213
+  },
+  {
+    "state": "North Carolina",
+    "year": 2016,
+    "month": "Feb",
+    "newVoters": 84357
+  },
+  {
+    "state": "North Carolina",
+    "year": 2016,
+    "month": "Mar",
+    "newVoters": 58272
+  },
+  {
+    "state": "North Carolina",
+    "year": 2016,
+    "month": "Apr",
+    "newVoters": 73341
+  },
+  {
+    "state": "North Carolina",
+    "year": 2016,
+    "month": "May",
+    "newVoters": 29374
+  },
+  {
+    "state": "North Carolina",
+    "year": 2020,
+    "month": "Jan",
+    "newVoters": 111990
+  },
+  {
+    "state": "North Carolina",
+    "year": 2020,
+    "month": "Feb",
+    "newVoters": 54053
+  },
+  {
+    "state": "North Carolina",
+    "year": 2020,
+    "month": "Mar",
+    "newVoters": 54807
+  },
+  {
+    "state": "North Carolina",
+    "year": 2020,
+    "month": "Apr",
+    "newVoters": 35484
+  },
+  {
+    "state": "North Carolina",
+    "year": 2020,
+    "month": "May",
+    "newVoters": 23517
+  },
+  {
+    "state": "Texas",
+    "year": 2016,
+    "month": "Jan",
+    "newVoters": 132860
+  },
+  {
+    "state": "Texas",
+    "year": 2016,
+    "month": "Feb",
+    "newVoters": 143795
+  },
+  {
+    "state": "Texas",
+    "year": 2016,
+    "month": "Mar",
+    "newVoters": 170607
+  },
+  {
+    "state": "Texas",
+    "year": 2016,
+    "month": "Apr",
+    "newVoters": 143199
+  },
+  {
+    "state": "Texas",
+    "year": 2016,
+    "month": "May",
+    "newVoters": 91205
+  },
+  {
+    "state": "Texas",
+    "year": 2020,
+    "month": "Jan",
+    "newVoters": 134559
+  },
+  {
+    "state": "Texas",
+    "year": 2020,
+    "month": "Feb",
+    "newVoters": 130080
+  },
+  {
+    "state": "Texas",
+    "year": 2020,
+    "month": "Mar",
+    "newVoters": 129424
+  },
+  {
+    "state": "Texas",
+    "year": 2020,
+    "month": "Apr",
+    "newVoters": 34694
+  },
+  {
+    "state": "Texas",
+    "year": 2020,
+    "month": "May",
+    "newVoters": 35678
+  },
+  {
+    "state": "Virginia",
+    "year": 2016,
+    "month": "Jan",
+    "newVoters": 20032
+  },
+  {
+    "state": "Virginia",
+    "year": 2016,
+    "month": "Feb",
+    "newVoters": 36911
+  },
+  {
+    "state": "Virginia",
+    "year": 2016,
+    "month": "Mar",
+    "newVoters": 44171
+  },
+  {
+    "state": "Virginia",
+    "year": 2016,
+    "month": "Apr",
+    "newVoters": 20460
+  },
+  {
+    "state": "Virginia",
+    "year": 2016,
+    "month": "May",
+    "newVoters": 26239
+  },
+  {
+    "state": "Virginia",
+    "year": 2020,
+    "month": "Jan",
+    "newVoters": 25934
+  },
+  {
+    "state": "Virginia",
+    "year": 2020,
+    "month": "Feb",
+    "newVoters": 29507
+  },
+  {
+    "state": "Virginia",
+    "year": 2020,
+    "month": "Mar",
+    "newVoters": 31492
+  },
+  {
+    "state": "Virginia",
+    "year": 2020,
+    "month": "Apr",
+    "newVoters": 5467
+  },
+  {
+    "state": "Virginia",
+    "year": 2020,
+    "month": "May",
+    "newVoters": 8239
+  }
+]

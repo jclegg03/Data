@@ -34,7 +34,7 @@ struct DataView: View
                     {
                         index in
                         
-                        
+                        ElectionDataRowView(currentElectionDatum: electionStore.electionData[index])
                     }
                 }
                 Section(header: Text("Voter Registration"))

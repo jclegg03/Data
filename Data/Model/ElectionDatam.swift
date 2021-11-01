@@ -7,15 +7,12 @@
 
 import Foundation
 
-struct ElectionDatum: Codable, Identifiable
+struct ElectionDatum: Codable//, Identifiable
 {
-    var id = UUID().uuidString
+    //var id = UUID().uuidString
     var state: String
-    var cantidateName: String
+    var candidateName: String
     var sampleSize: Int
     var weight: Double
     var influence: Double
-    var percent: Double
-    var houseAdjustedPercent: Double
-    var trendAndHouseAdjustedPercent: Double
 }

@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct VoterRegistration: Codable, Identifiable
+struct VoterRegistration: Codable//, Identifiable
 {
-    var id = UUID().uuidString
-    var Jurisdiction: String
-    var Year: Int
-    var Month: String
-    var NewRegisteredVoters: Int
+  //  var id = UUID().uuidString
+    var state: String
+    var year: Int
+    var month: String
+    var newVoters: Int
 }

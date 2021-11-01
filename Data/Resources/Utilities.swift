@@ -8,8 +8,8 @@
 import Foundation
 
 let demoItem : BucketListItem = BucketListItem(year: -9395891, goal: "My goal is to annoy someone here", creature: "Creature the house elf")
-let secondDemo: ElectionDatum = ElectionDatum(state: "Utah", cantidateName: "Donald John Trump", sampleSize: 13463, weight: 0.003, influence: 0.6, percent: 0.613, houseAdjustedPercent: 0.134714, trendAndHouseAdjustedPercent: 0.5711443)
-let thirdDems: VoterRegistration = VoterRegistration(Jurisdiction: "Utah", Year: 2002, Month: "January", NewRegisteredVoters: 116413)
+let secondDemo: ElectionDatum = ElectionDatum(state: "Utah", candidateName: "Donald John Trump", sampleSize: 13463, weight: 0.003, influence: 0.6)
+let thirdDemo: VoterRegistration = VoterRegistration(state: "Utah", year: 2002, month: "January", newVoters: 116413)
 
 func generateRandomEmoji(of emojiType: String) -> String
 {
@@ -56,12 +56,12 @@ func loadJSON (from file : String) -> [Any]
                 let results = try decoder.decode([BucketListItem].self, from: data)
                 return results
             }
-            else if(file == "PresidentialPolls")
+            else if(file == "Presidential Polls")
             {
                 let results = try decoder.decode([ElectionDatum].self, from: data)
                 return results
             }
-            else if(file == "VoterRegistration")
+            else if(file == "Voters")
             {
                 let results = try decoder.decode([VoterRegistration].self, from: data)
                 return results
