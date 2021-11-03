@@ -13,37 +13,58 @@ struct DataView: View
     @ObservedObject var electionStore: ElectionStore = ElectionStore(electionData: loadJSON(from: "PresidentialPolls") as! [ElectionDatum])
     @ObservedObject var registrationStore: RegistrationStore = RegistrationStore(voterRegistrationData: loadJSON(from: "VoterRegistration") as! [VoterRegistration])
     
+    @State private var searchedText: String = ""
+    
+    private var filteredResults: [BucketListItem]
+    {
+        if(searchedText.isEmpty)
+        {
+            return bucketStore.buckets
+        }
+        else
+        {
+            return bucketStore.buckets.filter
+            {
+                $0.creature.lowercased().contains(searchedText.lowercased()) ||
+                $0.goal.lowercased().contains(searchedText.lowercased())
+            }
+        }
+    }
+    
     var body: some View
     {
         NavigationView
         {
-            List
+            VStack
             {
-                Section(header: Text("Bucket Lists"))
+                List
                 {
-                    ForEach(bucketStore.buckets)
+                    Section(header: Text("Bucket Lists"))
                     {
-                        bucket in
-                    
-                        BucketRowView(currentBucket: bucket, icon: generateRandomEmoji(of: "greek"))
+                        ForEach(bucketStore.buckets)
+                        {
+                            bucket in
+                        
+                            BucketRowView(currentBucket: bucket, icon: generateRandomEmoji(of: "greek"))
+                        }
                     }
-                }
-                Section(header: Text("Election Polls"))
-                {
-                    ForEach(electionStore.electionData.indices)
+                    Section(header: Text("Election Polls"))
                     {
-                        index in
-                        
-                        ElectionDataRowView(currentElectionDatum: electionStore.electionData[index])
+                        ForEach(electionStore.electionData.indices)
+                        {
+                            index in
+                            
+                            ElectionDataRowView(currentElectionDatum: electionStore.electionData[index])
+                        }
                     }
-                }
-                Section(header: Text("Voter Registration"))
-                {
-                    ForEach(registrationStore.voterRegistrationData.indices)
+                    Section(header: Text("Voter Registration"))
                     {
-                        index in
-                        
-                        
+                        ForEach(registrationStore.voterRegistrationData.indices)
+                        {
+                            index in
+                            
+                            
+                        }
                     }
                 }
             }
