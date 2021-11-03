@@ -12,7 +12,7 @@ struct ElectionDatum: Codable//, Identifiable
     //var id = UUID().uuidString
     var state: String
     var candidateName: String
-    var sampleSize: Int
+    var sampleSize: Double
     var weight: Double
     var influence: Double
 }

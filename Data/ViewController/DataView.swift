@@ -10,8 +10,8 @@ import SwiftUI
 struct DataView: View
 {
     @ObservedObject var bucketStore: BucketStore = BucketStore(buckets: loadJSON(from: "bucket2021") as! [BucketListItem])
-    @ObservedObject var electionStore: ElectionStore = ElectionStore(electionData: loadJSON(from: "PresidentialPolls") as! [ElectionDatum])
-    @ObservedObject var registrationStore: RegistrationStore = RegistrationStore(voterRegistrationData: loadJSON(from: "VoterRegistration") as! [VoterRegistration])
+    @ObservedObject var electionStore: ElectionStore = ElectionStore(electionData: loadJSON(from: "Presidential Polls") as! [ElectionDatum])
+    @ObservedObject var registrationStore: RegistrationStore = RegistrationStore(voterRegistrationData: loadJSON(from: "Voters") as! [VoterRegistration])
     
     @State private var searchedText: String = ""
     
@@ -37,11 +37,12 @@ struct DataView: View
         {
             VStack
             {
+                SearchBarView(searchText: $searchedText)
                 List
                 {
                     Section(header: Text("Bucket Lists"))
                     {
-                        ForEach(bucketStore.buckets)
+                        ForEach(filteredResults)
                         {
                             bucket in
                         
@@ -63,10 +64,10 @@ struct DataView: View
                         {
                             index in
                             
-                            
+                            RegistrationRowView(voterRegistration: registrationStore.voterRegistrationData[index])
                         }
                     }
-                }
+                }.navigationTitle("My Data")
             }
         }
     }
