@@ -16,7 +16,25 @@ struct AddBucketListItemView: View
     
     var body: some View
     {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form
+        {
+            Section(header: Text("Make a new bucket list item!")
+                        .font(.largeTitle)
+                        .foregroundColor(.blue)
+                        .multilineTextAlignment(.center))
+            {
+                InputField(title: "Creature", hint: "Who made this goal?", result: $author)
+                InputField(title: "The goal", hint: "What do you want to acomplish?", result: $bucketItem)
+            }
+        }
+    }
+    
+    private func addBucketItem() -> Void
+    {
+        let year = Calendar.current.component(.year, from: Date())
+        let newBucketItem: BucketListItem = BucketListItem(id: UUID().uuidString, year: year, goal: bucketItem, creature: author)
+        bucketStore.buckets.insert(newBucketItem, at: 0)
+        self.presentationMode.wrappedValue.dismiss()
     }
 }
 
