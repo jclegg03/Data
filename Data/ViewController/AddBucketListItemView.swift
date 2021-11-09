@@ -9,7 +9,13 @@ import SwiftUI
 
 struct AddBucketListItemView: View
 {
-    var body: some View {
+    @Environment(\.presentationMode) var presentationMode
+    @ObservedObject var bucketStore: BucketStore
+    @State var author: String = ""
+    @State var bucketItem: String = ""
+    
+    var body: some View
+    {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
