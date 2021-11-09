@@ -26,6 +26,11 @@ struct AddBucketListItemView: View
                 InputField(title: "Creature", hint: "Who made this goal?", result: $author)
                 InputField(title: "The goal", hint: "What do you want to acomplish?", result: $bucketItem)
             }
+            if(!author.isEmpty && !bucketItem.isEmpty)
+            {
+                Button("Add the new item", action: addBucketItem)
+                    .padding(.horizontal, 10.0)
+            }
         }
     }
     
