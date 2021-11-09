@@ -13,6 +13,9 @@ struct DataView: View
     @ObservedObject var electionStore: ElectionStore = ElectionStore(electionData: loadJSON(from: "Presidential Polls") as! [ElectionDatum])
     @ObservedObject var registrationStore: RegistrationStore = RegistrationStore(voterRegistrationData: loadJSON(from: "Voters") as! [VoterRegistration])
     
+    @Environment(\.presentationMode) var presentation
+    @State private var showAddItem: Bool = false
+    
     @State private var searchedText: String = ""
     
     private var filteredResults: [BucketListItem]
@@ -68,7 +71,12 @@ struct DataView: View
                         }
                     }
                 }.navigationTitle("My Data")
+                .navigationBarItems(leading: EditButton(), trailing: Button(action: { self.showAddItem.toggle() }) {Image(systemName: "plus") })
             }
+        }
+        .sheet(isPresented: $showAddItem)
+        {
+            AddBucketListItemView(bucketStore: self.bucketStore)
         }
     }
 }
