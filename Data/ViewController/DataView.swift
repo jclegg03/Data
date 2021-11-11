@@ -51,6 +51,7 @@ struct DataView: View
                         
                             BucketRowView(currentBucket: bucket, icon: generateRandomEmoji(of: randomSymbolType()))
                         }
+                        .onDelete(perform: removeItems)
                     }
                     Section(header: Text("Election Polls"))
                     {
@@ -78,6 +79,11 @@ struct DataView: View
         {
             AddBucketListItemView(bucketStore: self.bucketStore)
         }
+    }
+    
+    private func removeItems(at offsets: IndexSet) -> Void
+    {
+        bucketStore.buckets.remove(atOffsets: offsets)
     }
 }
 
