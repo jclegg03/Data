@@ -24,6 +24,19 @@ class BucketStore : ObservableObject
     
     init (buckets : [BucketListItem])
     {
-        self.buckets = buckets
+        if let storedBuckets = UserDefaults.standard.data(forKey: "Saved Buckets")
+        {
+            let decoder = JSONDecoder()
+            if let savedBuckets = try? decoder.decode([BucketListItem].self, from: storedBuckets)
+            {
+                if(savedBuckets.count != 0)
+                {
+                    self.buckets = savedBuckets
+                    return //Exits the init with the saved data iff there is data stored
+                }
+            }
+        }
+        
+        self.buckets = buckets //Exits the init with the JSON from the loadJSON method
     }
 }
