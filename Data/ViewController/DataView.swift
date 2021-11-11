@@ -49,7 +49,7 @@ struct DataView: View
                         {
                             bucket in
                         
-                            BucketRowView(currentBucket: bucket, icon: generateRandomEmoji(of: "greek"))
+                            BucketRowView(currentBucket: bucket, icon: generateRandomEmoji(of: randomSymbolType()))
                         }
                     }
                     Section(header: Text("Election Polls"))

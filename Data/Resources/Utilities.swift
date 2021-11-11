@@ -43,6 +43,28 @@ func generateRandomEmoji(of emojiType: String) -> String
     return currentEmoji
 }
 
+func randomSymbolType() -> String
+{
+    let choice = arc4random()
+    
+    if(choice % 4 == 0)
+    {
+        return "face"
+    }
+    else if(choice % 4 == 1)
+    {
+        return "symbol"
+    }
+    else if(choice % 4 == 2)
+    {
+        return "greek"
+    }
+    else
+    {
+        return "animal"
+    }
+}
+
 func loadJSON (from file : String) -> [Any]
 {
     if let dataURL = Bundle.main.url(forResource: file, withExtension: "json")
