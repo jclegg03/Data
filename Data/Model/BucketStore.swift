@@ -40,3 +40,4 @@ class BucketStore : ObservableObject
         self.buckets = buckets //Exits the init with the JSON from the loadJSON method
     }
 }
+    
